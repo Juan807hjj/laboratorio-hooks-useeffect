@@ -1,0 +1,19 @@
+.producto-card {
+  transition: transform 0.2s ease;
+}
+.producto-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.producto-card img {
+  height: 200px;
+  object-fit: contain;
+}
+.descripcion {
+  font-size: 0.85rem;
+  color: #555;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
